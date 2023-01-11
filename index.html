@@ -13,8 +13,10 @@
 
 <header>
     <div class="title-container">
-        <div class="title">
-            <h1>Who is that Pokémon?</h1>
+        <div class="title-background">
+            <div class="title">
+                <h1>Who is that Pokémon?</h1>
+            </div>
         </div>
     </div>
 </header>
@@ -46,23 +48,31 @@
     </div>
 
     <div class="trainer-name-section">
-        <input type="text" id="trainer-name">
+        <label for="trainer">Your Name:</label>
+        <input type="text" id="trainer-name" name="trianer">
     </div>
 
     <div class="choose-type">
-        <button data-type="fire" class="btn  btn--red">
-            <i class="fa-solid fa-fire"></i>
-        </button>
-        <button data-type="water" class="btn  btn--blue">
-            <i class="fa-solid fa-droplet"></i>
-        </button>
-        <button data-type="grass" class="btn  btn--green">
-            <i class="fa-solid fa-leaf"></i>
-        </button>
+        <h2> Choose your type:</h2>
+        <div class="choose-buttons">
+            <button data-type="fire" class="btn btn--red left">
+                <i class="fa-solid fa-fire"></i>
+            </button>
+            <button data-type="water" class="btn btn--blue">
+                <i class="fa-solid fa-droplet"></i>
+            </button>
+            <button data-type="grass" class="btn btn--green right">
+                <i class="fa-solid fa-leaf"></i>
+            </button>
+        </div>
     </div>
 
+    <br>
+
     <div class="start">
-        <button id="start-quiz" class="btn--big">Start Quiz</button>
+        <a href="quiz.html">
+            <button id="start-quiz" class="btn--big">Start Quiz</button>
+        </a>
     </div>
 </main>
     
