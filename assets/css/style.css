@@ -7,8 +7,6 @@
 }
 
 .title-container{
-    width: inherit;
-    height: inherit;
     background: url(../images/4pokemon.png) no-repeat center center;
     width: 100%;
     height: 40vh;
