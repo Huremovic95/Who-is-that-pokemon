@@ -1,4 +1,5 @@
 
+/* index page */
 /* Title */
 .title-container{
     width: 100%;
@@ -51,9 +52,57 @@
 
 .btn {
     padding: 20px;
-    border-radius: 100%;
+    border-radius: 50%;
     display: inline-block;
     font-size: 25px;
 }
 
+.btn--red {
+    background-color:coral;
+    color:red;
+    border: coral solid 4px;
+}
 
+.btn--red:focus, .btn--red:hover {
+    border-color: red;
+}
+
+.btn--blue {
+    background-color:lightseagreen;
+    color:blue;
+    border: lightseagreen solid 4px;
+}
+
+.btn--blue:focus, .btn--blue:hover{
+    border-color: blue;
+}
+
+.btn--green {
+    background-color:lightgreen;
+    color:green;
+    border: lightgreen solid 4px;
+}
+
+.btn--green:focus, .btn--green:hover {
+    border-color: green;
+}
+
+/* start quiz section */
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--big {
+    padding-top: 5px;
+    border-radius: 5%;
+    background-color: yellow;
+    border: 4px solid rgb(21, 21, 210);
+    color: rgb(21, 21, 210);
+    width: 100px;
+    height: 75px;
+    font-size: 1.5rem;
+    margin: 15px;
+    transition: all 0.5s;
+}
