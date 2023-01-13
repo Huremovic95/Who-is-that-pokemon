@@ -20,12 +20,14 @@ function quizStart(gameType){
 }
 
 function displayFirePokemon() {
-    let fireTypes = [{
+    let fireTypes = {
         question : "pokemon-logo.png",
         alternatives : "pickachu, charizard, blazikan, charmeleon",
         correctAnswer : 0,
-        showPicture : "4pokemon.png"}]
+        showPicture : "4pokemon.png"}
 
-    let pokemonImage = document.getElementById("poke-image");
-    pokemonImage.innerHTML = '<img src="assets/images/ + fireTypes.question + ">' 
+    let firstPicture = fireTypes.question;
 }
+
+let pokemonImage = document.getElementById("poke-image");
+    pokemonImage.appendChild(document.createElement('img')).src = '../images/pokemon-logo.png'; 
